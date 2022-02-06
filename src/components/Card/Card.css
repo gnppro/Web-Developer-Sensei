@@ -1,0 +1,33 @@
+.Card {
+  color: #333;
+  background-color: #fff;
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.Card p {
+  font-size: large;
+}
+
+.Card-Title {
+  text-align: center;
+}
+
+.Card-Image {
+  text-align: center;
+}
+
+.Card-Image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
