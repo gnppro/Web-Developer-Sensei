@@ -1,0 +1,11 @@
+.Items {
+  /* display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+  flex-grow: 1; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  column-gap: 20px;
+  row-gap: 40px;
+}
